@@ -1,7 +1,7 @@
 {
-  "name": "az-dev-base",
-  "version": "1.0.0",
-  "description": "A general purpose seed project base",
+  "name": "az-mail-kit",
+  "version": "0.1.0",
+  "description": "AzMailKit",
   "main": "dist/library/index.js",
   "repository": {
     "type": "git"
@@ -27,7 +27,11 @@
   "engines": {
     "node": ">=7.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "mjml": "^4.0.5",
+    "nodemailer": "^4.6.4"
+  },
   "devDependencies": {
     "az-gulp-env-lite": "git+https://github.com/xtforgame/az-gulp-env-lite#v1.0.0-alpha.1",
     "babel-core": "^6.14.0",

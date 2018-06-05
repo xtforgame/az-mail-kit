@@ -1,0 +1,7 @@
+<mj-column width="100%" vertical-align="middle">
+  <mj-text align="center" color="#000000" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" font-size="11px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+    <span style="font-size: 14px">
+      <%= text %>
+    </span>
+  </mj-text>
+</mj-column>

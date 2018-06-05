@@ -1,6 +1,6 @@
-# AzDevBase
+# AzMailKit
 
-A general purpose seed project base
+AzMailKit
 
 Run `npm install`
 

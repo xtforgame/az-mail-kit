@@ -1,8 +1,13 @@
-export default function echo(data, err){
-  return new Promise((resolve, reject) => {
-    if(err){
-      return reject(err);
-    }
-    return resolve(data);
-  });
-}
+import ejs from 'ejs';
+import mjml from 'mjml';
+import nodemailer from 'nodemailer';
+
+import AzMailer from './AzMailer';
+
+export {
+  ejs,
+  mjml,
+  nodemailer,
+};
+
+export default AzMailer;
